@@ -31,6 +31,6 @@ for arquivo in os.listdir(pasta_alvo):
                 if not os.path.exists(caminho_destino):
                     os.makedirs(caminho_destino)
 
-                shutil.move(caminho_arquivo, os.path.join(caminho_destino, arquivo))
+                shutil.move(caminho_arquivo, os.path.join(caminho_destino, arquivo)) #comentario
                 print(f"Movido: {arquivo} -> {pasta_destino}/")
                 break
